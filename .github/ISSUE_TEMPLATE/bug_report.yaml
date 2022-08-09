@@ -61,18 +61,11 @@ body:
       description: "For example, `12.5`."
     validations:
       required: true
-  - type: input
-    id: "git-version"
-    attributes:
-      label: "Git Version"
-      description: "For example, `2.37.1` e.g. Run `git --version`"
-    validations:
-      required: true
-  - type: input
+  - type: textarea
     id: "wip-version"
     attributes:
       label: "Wip Version"
-      description: "Run `wip version` and paste here"
+      description: "Run `wip version` from your repo directory and paste the output here"
     validations:
       required: true
   - type: textarea
